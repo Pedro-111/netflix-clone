@@ -34,11 +34,11 @@ public class MainActivity extends AppCompatActivity {
     // Método para obtener datos de series (deberías reemplazarlo por datos reales)
     private List<Content> getSeriesData() {
         List<Content> seriesList = new ArrayList<>();
-        seriesList.add(new Content("Peaky Blinders", "https://www.hola.com/horizon/original_aspect_ratio/f2c16ba136ad-peaky-blinders.jpg"));
-        seriesList.add(new Content("Stranger Things", "https://example.com/stranger_things.jpg"));
-        seriesList.add(new Content("The Crown", "https://example.com/the_crown.jpg"));
-        seriesList.add(new Content("Money Heist", "https://example.com/money_heist.jpg"));
-        seriesList.add(new Content("The Witcher", "https://example.com/the_witcher.jpg"));
+        seriesList.add(new Content("Peaky Blinders", "https://wallpaperaccess.com/full/1087735.jpg"));
+        seriesList.add(new Content("Stranger Things", "https://wallpaperaccess.com/full/1504291.jpg"));
+        seriesList.add(new Content("The Crown", "https://wallpaperaccess.com/full/1902873.jpg"));
+        seriesList.add(new Content("Money Heist", "https://wallpaperaccess.com/full/1103713.jpg"));
+        seriesList.add(new Content("The Witcher", "https://wallpaperaccess.com/full/2052705.jpg"));
         seriesList.add(new Content("Ozark", "https://example.com/ozark.jpg"));
         seriesList.add(new Content("Bridgerton", "https://example.com/bridgerton.jpg"));
         seriesList.add(new Content("The Queen's Gambit", "https://example.com/the_queens_gambit.jpg"));

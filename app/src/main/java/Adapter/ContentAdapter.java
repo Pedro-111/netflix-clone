@@ -42,7 +42,7 @@ public class ContentAdapter extends RecyclerView.Adapter<ContentAdapter.ViewHold
         holder.itemView.setOnClickListener(v -> {
             Intent intent = new Intent(holder.itemView.getContext(), DetailActivity.class);
             intent.putExtra("title", content.getTitle());
-            intent.putExtra("https://www.hola.com/horizon/original_aspect_ratio/f2c16ba136ad-peaky-blinders.jpg", content.getImageUrl());
+            intent.putExtra("imageUrl", content.getImageUrl());
             holder.itemView.getContext().startActivity(intent);
         });
     }

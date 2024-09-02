@@ -19,7 +19,7 @@ public class DetailActivity extends AppCompatActivity {
         // Obtén los datos del intent
         Intent intent = getIntent();
         String title = intent.getStringExtra("title");
-        String imageUrl = intent.getStringExtra("https://www.hola.com/horizon/original_aspect_ratio/f2c16ba136ad-peaky-blinders.jpg");
+        String imageUrl = intent.getStringExtra("imageUrl");
 
         // Configura los elementos de la UI
         ImageView detailImage = findViewById(R.id.detail_image);
